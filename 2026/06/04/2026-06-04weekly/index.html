@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小冷的研究日记</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- KaTeX 公式渲染 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <!-- 中文 Web 字体：霞鹜文楷（仿宋风格，全平台可用） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=LXGW+WenKai+TC&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+    <body>
+        <div class="container mt-4">
+    <header class="top-radius bg-dark text-white py-3 text-center">
+        <h1 class="mb-1">小冷的研究日记</h1>
+        <p class="mb-0">……</p>
+    </header>
+</div>
+            
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="/categories/">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="/tags/">Tags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="/about/">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+                <main class="container my-4">
+    <div class="col-lg-12">
+        <article class="card">
+            <div class="card-body">
+                <header>
+                    <h2 class="card-title">
+                        第 1 周研究周报：大模型提升强化学习方向调研
+                    </h2>
+                    <div class="d-flex">
+    <div class="ms-auto">
+        
+            
+                <a class="index-cat-link" href="/categories/%E5%91%A8%E6%8A%A5">
+                    周报
+                </a>
+                
+                        
+                            
+    </div>
+</div>
+                        <hr>
+                </header>
+                <div class="card-text">
+                    <h2 id="本周目标"><a href="#本周目标" class="headerlink" title="本周目标"></a>本周目标</h2><ul>
+<li>调研大模型提升强化学习方向研究现状</li>
+</ul>
+<h2 id="本周完成"><a href="#本周完成" class="headerlink" title="本周完成"></a>本周完成</h2><ul>
+<li>阅读综述《The Landscape of Agentic RL for LLMs: A Survey》</li>
+<li>了解大模型提升强化学习主要研究路径。</li>
+</ul>
+<h2 id="主要收获"><a href="#主要收获" class="headerlink" title="主要收获"></a>主要收获</h2><ul>
+<li><strong>对“大模型提升强化学习”概念的理解：</strong>把大语言模型或多模态基础模型当作“增强器”来提升强化学习系统的表示、奖励、策略、规划、样本效率和泛化能力，大模型可以充当策略网络、奖励模型、世界模型、验证器、规划器、记忆模块或环境接口，从而改变 RL 的学习方式。</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">维度</th>
+<th style="text-align:left">RL for LLM</th>
+<th style="text-align:left">LLM for RL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">谁是训练对象</td>
+<td style="text-align:left">LLM（参数、策略分布）</td>
+<td style="text-align:left">RL agent / 策略 / 值函数</td>
+</tr>
+<tr>
+<td style="text-align:left">RL 的角色</td>
+<td style="text-align:left">后训练优化器（RLHF、DPO、GRPO、RLVR）</td>
+<td style="text-align:left">经典强化学习框架本身</td>
+</tr>
+<tr>
+<td style="text-align:left">LLM 的角色</td>
+<td style="text-align:left">被训练的模型</td>
+<td style="text-align:left">奖励模型、世界模型、规划器、验证器、高层策略模块</td>
+</tr>
+<tr>
+<td style="text-align:left">主要想提升的东西</td>
+<td style="text-align:left">对齐、推理、工具使用、Agent 行为</td>
+<td style="text-align:left">奖励设计、样本效率、长程规划、泛化</td>
+</tr>
+<tr>
+<td style="text-align:left">典型场景</td>
+<td style="text-align:left">对话对齐、数学/代码推理、搜索/代码 agent</td>
+<td style="text-align:left">机器人、GUI/Web 导航、多智能体博弈、复杂控制任务</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="/images/generated-image-1.png" alt="generated-image-1"></p>
+<ul>
+<li><strong>当前研究热点：</strong><ul>
+<li><strong>LLM 做奖励模型：</strong>很多复杂任务（协作、博弈、开放环境）没法直接写出稠密 reward，或者 reward 极其稀疏。LLM 可以理解任务自然语言描述、观察轨迹，给出语义上的“好/坏”，变成稠密奖励或潜在奖励函数。</li>
+<li><strong>LLM 做世界模型/规划器：</strong>长程决策与样本效率是 RL 的老大难问题。LLM 自带大量常识 + 代码生成能力，可以用来“写环境模型”或“做高层规划”，把 RL 从纯 trial‑and‑error 提升为“计划 + 再学习”。</li>
+<li><strong>LLM 做语义感知与高层策略：</strong>实际任务（GUI 自动化、Web 导航、机器人操作、多智能体博弈）状态复杂、部分可观测、语义信息丰富。而LLM 擅长把界面、文字、任务说明转换为语义向量或高层指令，RL 更擅长在低层动作空间里优化细节。</li>
+<li><strong>LLM 增强 RL 理论与训练框架：Agentic RL 视角</strong>。Agentic RL 把 LLM 看成嵌入 POMDP 中的 agent（而不是单步 MDP），强调长期交互、工具使用、记忆和自我改进。在这个框架里，LLM 不只是“外挂”，而是 RL 系统的核心：状态、动作、奖励、transition 都可能在语言空间里定义。<a target="_blank" rel="noopener" href="https://leticialn.github.io/2026/06/04/%E3%80%8AThe%20Landscape%20of%20Agentic%20RL%20for%20LLMs%20A%20Survey%E3%80%8Bpaper/">参考论文：The Landscape of Agentic Reinforcement Learning for LLMs: A Survey）</a></li>
+</ul>
+</li>
+<li><strong>代表方法：</strong></li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方向</th>
+<th style="text-align:left">代表方法/范式</th>
+<th style="text-align:left">核心特点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">奖励设计 / 信用分配</td>
+<td style="text-align:left">LLM-Guided Credit Assignment (LCA)</td>
+<td style="text-align:left">LLM 根据任务描述和各 agent 轨迹生成 agent-specific dense reward，缓解 MARL 中稀疏奖励和 credit assignment 问题。</td>
+</tr>
+<tr>
+<td style="text-align:left">奖励塑形 / 进度奖励</td>
+<td style="text-align:left">LLM-Guided Reward Shaping / PRM4RL</td>
+<td style="text-align:left">用 LLM 估计任务进度或子任务完成度，构造 potential-based progress reward，加速 RL 收敛。</td>
+</tr>
+<tr>
+<td style="text-align:left">世界模型 / 规划器</td>
+<td style="text-align:left">LWM-DPO（LLM-Driven World Model + DPO）</td>
+<td style="text-align:left">LLM 负责高层状态轨迹规划，程序化反馈修正后，用 DPO 蒸馏出高效 RL policy，实现规划–执行解耦。</td>
+</tr>
+<tr>
+<td style="text-align:left">世界模型 / 环境代码</td>
+<td style="text-align:left">Code World Models with LLMs</td>
+<td style="text-align:left">利用 LLM 生成环境动态的代码表示（Python transition 函数），执行代码做模拟和规划，提高样本效率与可解释性。</td>
+</tr>
+<tr>
+<td style="text-align:left">高层策略 / 语义感知</td>
+<td style="text-align:left">LLM-Enhanced GUI/Web/Robotics Agents</td>
+<td style="text-align:left">LLM 将复杂观测（GUI/Web/语言任务）转成语义特征和高层指令，RL 在低层动作上优化策略，实现复杂任务决策。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li><strong>主要瓶颈：</strong><ul>
+<li><strong>LLM自身的缺陷：</strong>幻觉与不可靠输出会给 RL 提供系统性偏差的信号；Transformer 模型缺乏真正的因果/物理理解，导致LLM作为 world model 时容易在分布外场景下崩溃；LLM 对时间、状态演化缺少内建表示，无法直接匹配RL中的“状态–动作–转移”。</li>
+<li><strong>和RL框架的结构性冲突：</strong>可能会出现奖励误设与reward hacking；进一步增加了长程 credit assignment难度。</li>
+<li><strong>工程与评测问题：</strong>计算和系统负担极高；采样开销与训练不稳定；难以标准化评测。</li>
+<li><strong>安全性与对齐问题：</strong>不可靠的生成式世界模型将导致不可控的 policy 行为；在开放环境中，平衡 RL 探索与严格控制 LLM 的输出空间和行为边界是个难题。</li>
+</ul>
+</li>
+<li><strong>可提升的 RL 要素：</strong><ul>
+<li>奖励：构造更细粒度、更语义化的奖励，解决奖励稀疏、难设计、易被 hack 的问题。</li>
+<li>策略：大模型可直接作为策略或帮助策略更好地表达复杂动作分布。</li>
+<li>价值函数：帮助价值评估在文本、代码等高维空间里变得更语义化。</li>
+<li>模型：充当环境/世界模型，提前估计动作后果，提升规划和样本效率。</li>
+<li>探索：大模型可以显著改善探索质量，引入“带先验的结构化探索”。</li>
+<li>信用分配：利用中间步骤的可解释性、可验证性，改善长链任务的信用分配。</li>
+</ul>
+</li>
+</ul>
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><ul>
+<li>知识面宽泛，学到的内容过于碎片化，粗浅且泛泛。</li>
+<li>好像调研方向有点偏差，阅读的资料主要是“用 RL 提升大模型”而不是“用大模型增强 RL”的算法类问题。</li>
+</ul>
+<h2 id="下周计划"><a href="#下周计划" class="headerlink" title="下周计划"></a>下周计划</h2><ul>
+<li>围绕“LLM for RL”继续梳理。</li>
+</ul>
+<h2 id="需要导师建议"><a href="#需要导师建议" class="headerlink" title="需要导师建议"></a>需要导师建议</h2><ul>
+<li>如有理解偏差和错误之处请批评指正。</li>
+</ul>
+
+                </div>
+                <hr>
+
+                <div class="d-flex">
+                    <p class="text-muted ms-auto">
+                        Last updated: 2026-09-06 17:49:05
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+</main>
+
+                    
+
+                        <div class="container mt-4">
+    <footer class="bg-dark text-white py-3 bottom-radius text-center">
+        <p class="mb-0">
+            &copy; 2026
+                小冷
+        </p>
+    </footer>
+</div>
+
+                            <script
+                                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
